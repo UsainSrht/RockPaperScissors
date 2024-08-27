@@ -1,0 +1,5 @@
+name: RockPaperScissors
+version: '1.0.0'
+main: me.usainsrht.rockpaperscissors.RockPaperScissors
+api-version: '1.21'
+authors: [ UsainSrht ]

@@ -1,0 +1,21 @@
+
+messages:
+  rock_paper_scissors: "<newline><white>Rock & Paper & Scissors<newline><white>I have choosed mine, pick yours ↓<newline><newline>   <click:run_command:/rockpaperscissors rock><hover:show_text:'<gray>Click to select Rock'><gray>👊 Rock 👊<reset>  <click:run_command:/rockpaperscissors paper><hover:show_text:'<white>Click to select Paper'><white>✋ Paper ✋<reset>  <click:run_command:/rockpaperscissors scissors><hover:show_text:'<gray>Click to select Scissors'><gray>✌ Scissors ✌"
+  win: "<green>Congratulations! My pick was <pick>"
+  lose: "<red>Yay I won! My pick was <pick>."
+  draw: "<gray>Ahh it's a draw! My pick was <pick>."
+
+  rock_over_scissors: "Rock crashes Scissors"
+  paper_over_rock: "Paper covers Rock"
+  scissors_over_paper: "Scissors cuts Paper"
+
+sounds:
+  rock_paper_scissors: entity.villager.ambient
+
+  win: entity.villager.no
+  lose: entity.villager.yes
+  draw: entity.player.attack.nodamage
+
+  rock_over_scissors: block.smithing_table.use
+  paper_over_rock: item.book.page_turn
+  scissors_over_paper: ui.cartography_table.take_result
